@@ -852,18 +852,18 @@ address {
 
 /* варіант з background-image */
 
-.modal-checkbox:checked + .modal-policy-icon {
+/* .modal-checkbox:checked + .modal-policy-icon {
     border-color: transparent;
     background-image: url(../images/modal-check.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #2196F3;
     background-size: contain;
-}
+} */
 
 /* варіант з галочкою зі SVG-спрайта */
 
-/* .modal-checkbox-icon {
+.modal-checkbox-icon {
     position: absolute;
     left: 11px;
     width: 16px;
@@ -876,7 +876,7 @@ address {
 
 .modal-checkbox:checked ~ .modal-checkbox-icon {
     opacity: 1;
-} */
+}
 
 .modal-btn {
     display: block;
