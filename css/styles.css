@@ -540,6 +540,12 @@ address {
     border-color: var(--theme-accent);
 }
 
+.footer-input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--theme-contacts);
+}
+
 .footer-btn {
     margin-left: 12px;
 }
@@ -634,7 +640,7 @@ address {
 .portfolio-projects-link:hover .portfolio-projects-information,
 .portfolio-projects-link:focus .portfolio-projects-information {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 .portfolio-specification {
@@ -746,7 +752,7 @@ address {
 }
 
 .modal-form {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .modal-field {
@@ -755,6 +761,10 @@ address {
 
 .modal-field:not(:last-child) {
     margin-bottom: 10px;
+}
+
+.modal-field.modal-coments{
+    margin-bottom: 20px;
 }
 
 .modal-form-label {
@@ -824,7 +834,6 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
     font-size: 14px;
     line-height: 1.71;
     text-align: center;
@@ -876,6 +885,10 @@ address {
 
 .modal-checkbox:checked ~ .modal-checkbox-icon {
     opacity: 1;
+}
+
+.modal-policy-link {
+    color: var(--theme-hover);
 }
 
 .modal-btn {
