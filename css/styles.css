@@ -244,11 +244,6 @@ address {
     height: 120px;
 }
 
-/* .features-icons {
-    width: 70px;
-    height: 70px;
-} */
-
 .features-header {
     margin-bottom: 10px;
 
@@ -376,8 +371,6 @@ address {
 }
 
 .team-socials-icons {
-    /* width: 20px;
-    height: 20px; */
     fill: currentColor;
 }
 
@@ -412,8 +405,6 @@ address {
 }
 
 .clients-icon {
-    /* width: 106px;
-    height: 60px; */
     fill: currentColor;
 }
 
@@ -511,8 +502,6 @@ address {
 }
 
 .footer-socials-icons {
-    /* width: 20px;
-    height: 20px; */
     fill: var(--theme-accent);
 }
 
@@ -733,9 +722,9 @@ address {
     right: 8px;
     width: 30px;
     height: 30px;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     background: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
@@ -837,7 +826,6 @@ address {
 }
 
 .modal-checkbox-label {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -847,6 +835,7 @@ address {
 }
 
 .modal-policy-icon {
+    position: relative;
     display: inline-block;
     margin-right: 7px;
     width: 16px;
@@ -870,16 +859,16 @@ address {
 
 .modal-checkbox-icon {
     position: absolute;
-    left: 11px;
+    left: -2px;
+    top: -2px;
     width: 16px;
     height: 15px;
     background-color: #2196F3;
     border-radius: 2px;
-    margin-right: 7px;
     opacity: 0;
 }
 
-.modal-checkbox:checked ~ .modal-checkbox-icon {
+.modal-checkbox:checked + .modal-policy-icon > .modal-checkbox-icon {
     opacity: 1;
 }
 
