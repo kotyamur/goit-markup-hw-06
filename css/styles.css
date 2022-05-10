@@ -550,6 +550,13 @@ address {
     margin-left: 10px;
 }
 
+.footer-btn:hover .footer-send-icons,
+.footer-btn:focus .footer-send-icons {
+    position: relative;
+    bottom: 2px;
+    left: 2px;
+}
+
 
 /* ---------------------portfolio--------------------- */
 
